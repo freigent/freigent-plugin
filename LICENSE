@@ -1,22 +1,21 @@
+Freigent Plugin — License
+
+This plugin is free to install and use with a Freigent account. The terms below
+exist only to keep the code from being copied into other products — they are not
+meant to restrict you from using it with Freigent in any normal way.
+
 Copyright (c) 2026 Freigent. All rights reserved.
 
-This software (the "Plugin") is the proprietary property of Freigent.
-
 PERMITTED USE
-You are granted a limited, non-exclusive, non-transferable, revocable license to
-download, install, and use the Plugin solely to connect your own Claude client to
-the Freigent service using your own valid Freigent account and API credentials.
+You may download, install, and use this Plugin to connect your own Claude client
+to the Freigent service using your own Freigent account and API credentials. You
+may read the source freely to evaluate or use it.
 
-RESTRICTIONS
-Except as expressly permitted above, you may not:
-  (a) copy, reproduce, or republish the Plugin or any substantial portion of it;
-  (b) modify, adapt, translate, or create derivative works from it;
-  (c) distribute, sublicense, sell, rent, lease, or otherwise transfer it;
-  (d) remove or alter any copyright, trademark, or other proprietary notices;
-  (e) use it to build, train, or operate a competing product or service.
-
-Reading the source for the purpose of evaluating or using the Plugin with Freigent
-is permitted; reusing the source in another product is not.
+WHAT'S NOT ALLOWED
+Without Freigent's written permission, you may not:
+  (a) copy or republish the Plugin or a substantial portion of it;
+  (b) modify it or create derivative works from it;
+  (c) redistribute, sublicense, sell, rent, or otherwise transfer it.
 
 NO WARRANTY
 THE PLUGIN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
@@ -25,4 +24,4 @@ PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL FREIGENT BE LIABLE FO
 ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE
 PLUGIN OR ITS USE.
 
-For licensing inquiries beyond the permitted use above, contact legal@freigent.ai.
+Questions about use beyond the above? Reach out at legal@freigent.ai — happy to talk.
