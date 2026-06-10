@@ -1,0 +1,6 @@
+# Never commit secrets — the API key is supplied via env, never stored here
+.env
+.env.*
+*.key
+.DS_Store
+node_modules/
