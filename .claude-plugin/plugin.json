@@ -7,6 +7,6 @@
     "url": "https://freigent.ai"
   },
   "homepage": "https://github.com/freigent/freigent-plugin",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSE",
   "mcpServers": "./.mcp.json"
 }
