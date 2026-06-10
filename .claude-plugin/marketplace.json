@@ -6,7 +6,7 @@
   },
   "plugins": [
     {
-      "name": "freigent",
+      "name": "freigent-carrier",
       "source": "./",
       "description": "Connect Claude to your Freigent back office — triage the AI work queue, look up loads and carrier authority, approve/reject tasks with money-movement guardrails.",
       "version": "0.1.0"

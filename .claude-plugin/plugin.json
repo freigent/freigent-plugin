@@ -1,5 +1,5 @@
 {
-  "name": "freigent",
+  "name": "freigent-carrier",
   "version": "0.1.0",
   "description": "Connect Claude to your Freigent back-office: review the AI work queue, approve/reject tasks, look up loads and carrier authority — with money-movement guardrails built in.",
   "author": {

@@ -38,7 +38,7 @@ export FREIGENT_API_KEY="fmcp_your_key_here"
 ```bash
 # Add the marketplace, then install:
 /plugin marketplace add freigent/freigent-plugin
-/plugin install freigent@freigent
+/plugin install freigent-carrier@freigent
 ```
 
 Or point Claude Code directly at this repo and restart so it picks up `.mcp.json`, the skill, the
