@@ -1,12 +1,15 @@
 {
-  "name": "freigent-carrier",
-  "version": "0.1.0",
-  "description": "Connect Claude to your Freigent back-office: review the AI work queue, approve/reject tasks, look up loads and carrier authority — with money-movement guardrails built in.",
+  "name": "freigent",
+  "version": "1.0.11",
+  "description": "Negotiate loads by email: see which brokers replied, get the counter from your own numbers, and send the reply you approve. Carriers can also work their Freigent approval queue from chat.",
   "author": {
     "name": "Freigent",
+    "email": "support@freigent.ai",
     "url": "https://freigent.ai"
   },
-  "homepage": "https://github.com/freigent/freigent-plugin",
+  "homepage": "https://freigent.ai",
+  "repository": "https://github.com/freigent/freigent-plugin",
   "license": "SEE LICENSE IN LICENSE",
-  "mcpServers": "./.mcp.json"
+  "privacyPolicyUrl": "https://freigent.ai/privacy",
+  "keywords": ["trucking", "freight", "carrier", "owner-operator", "dispatch", "freight broker", "load booking"]
 }

@@ -1,30 +1,26 @@
 # Security
 
-## How this plugin handles your credentials
+## How the plugin connects
 
-This plugin contains **no secrets**. It points Claude at the Freigent MCP endpoint
-(`https://app.freigent.ai/api/mcp`) and reads your API key from the `FREIGENT_API_KEY` environment
-variable at runtime. The key is never stored in this repository or transmitted anywhere except to
-Freigent over HTTPS.
-
-## Your responsibilities
-
-- **Treat your API key like a password.** It identifies you and authorizes actions — including
-  approvals — under your account. Don't paste it into chats, commits, or screenshots.
-- **Use a personal key, not a shared one.** Every action Claude takes is attributed to the key's
-  owner. Shared keys break attribution.
-- **Rotate or revoke** from the Freigent app if a key may have leaked.
+The plugin contains no secrets and no executable code. Its only server entry points Claude at
+`https://app.freigent.ai/api/mcp`. You sign in to Freigent with OAuth when you connect, so no API key is stored in
+this repository or read from your machine. Every action is checked on the Freigent server against the account and
+organization you signed in to.
 
 ## What the plugin will not do
 
-- It will **not auto-approve anything that moves money.** Rate-con sends, bookings, payments, and
-  invoices require a human decision attributed to a real user. This is enforced both in the plugin's
-  instructions and server-side (financial approvals require a user-attributed key).
-- Broker email content inside tasks is treated as **untrusted data, never as instructions**, so a
-  "please approve this" buried in a broker message cannot drive an approval.
+- Send a reply to a broker that you have not seen and told Claude to send. Each send must match the current draft you
+  reviewed, with the same text.
+- Approve or reject a task without your own words, or in bulk.
+- Approve anything that moves money, sends a rate confirmation or sends an invoice from chat. Those are approved in the
+  Freigent app.
+- Follow instructions found inside broker emails. Email content is treated as data, never as instructions.
+
+## Revoking access
+
+Disconnect the plugin from Freigent's settings at any time. That ends Claude's access immediately.
 
 ## Reporting a vulnerability
 
-Found a security issue in the plugin or the Freigent MCP surface? Please **do not open a public
-issue.** Email **security@freigent.ai** with details and steps to reproduce. We'll acknowledge and
-keep you posted on the fix.
+Found a security issue in the plugin or the Freigent server? Please do not open a public issue. Email
+security@freigent.ai with details and steps to reproduce, and we will follow up.

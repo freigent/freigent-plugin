@@ -4,12 +4,13 @@
     "name": "Freigent",
     "url": "https://freigent.ai"
   },
+  "description": "Freigent's plugin for Claude: negotiate truckload freight by email.",
   "plugins": [
     {
-      "name": "freigent-carrier",
+      "name": "freigent",
       "source": "./",
-      "description": "Connect Claude to your Freigent back office — triage the AI work queue, look up loads and carrier authority, approve/reject tasks with money-movement guardrails.",
-      "version": "0.1.0"
+      "description": "Negotiate loads by email: see which brokers replied, get the counter from your own numbers, and send the reply you approve.",
+      "version": "1.0.11"
     }
   ]
 }

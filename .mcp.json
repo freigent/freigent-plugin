@@ -2,10 +2,7 @@
   "mcpServers": {
     "freigent": {
       "type": "http",
-      "url": "https://app.freigent.ai/api/mcp",
-      "headers": {
-        "Authorization": "Bearer ${FREIGENT_API_KEY}"
-      }
+      "url": "https://app.freigent.ai/api/mcp"
     }
   }
 }
